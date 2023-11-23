@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1000px;
+}
+.container nav {
+  display: flex;
+  max-width: 1000px;
+  background-color: #fef7e2;
+  margin: 0;
+  justify-content: center;
+  gap: 10px;
+  padding-block: 1.2rem;
+  box-sizing: border-box;
+  align-items: center;
+  padding-inline: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .container,
+  .container nav {
+    max-width: 1215px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container,
+  .container nav {
+    max-width: 1215px;
+  }
+}
+
+.box {
+  background-color: #ffdf7f;
+  color: #9b4304;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-inline: 1rem;
+  border: none;
+  padding: 1rem 0.7rem;
+  flex-grow: 1;
+  align-items: center;
+  line-height: bold;
+}
+.shop {
+  padding-block: 1.6rem;
+  padding-inline: 3rem;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.product h1 {
+  color: #9b4304;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 40px;
+}
+.main {
+  width: 100%;
+}
+.sezCard {
+  padding: 1rem;
+}
+.card,
+.card img {
+  background-color: #fef7e2;
+  margin-bottom: 1rem;
+}
+.card img {
+  border-radius: 30px 30px 0px 0px;
+  width: 100%;
+}
+.card {
+  border-radius: 30px;
+  flex-grow: 1;
+  width: 335px;
+}
+@media screen and (min-width: 320px) {
+  .card {
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .sezCard {
+    flex-direction: column;
+  }
+  .card {
+    width: 410px;
+  }
+}
+
+@media screen and (min-width: 534px) {
+  .card {
+    width: 236px;
+  }
+}
+@media screen and (min-width: 817px) {
+  .card {
+    width: 249px;
+  }
+}
+@media screen and (max-width: 916px) {
+  .card {
+    width: 291px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .card {
+    width: 450px;
+  }
+}
+
+.testo h4,
+p {
+  color: #9b4304;
+  margin: 0;
+}
+.prezzo {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 28px;
+}
+.descrizione {
+  padding: 0.6rem 2rem;
+}
+.card button {
+  background-color: #ffdf7f;
+  border: none;
+  padding: 0.4rem 2.2rem;
+  border-radius: 20px;
+  color: #9b4304;
+  font-weight: bold;
+}
+.bottone {
+  text-align: center;
+}
+.sezCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+article h2 {
+  color: #9b4304;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 35px;
+}
+.container2 h3 {
+  color: #9b4304;
+  font-weight: bold;
+  font-size: 27px;
+}
+.container2 {
+  background-color: #fef7e2;
+  margin-inline: 27px;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+}
+.container2 img {
+  margin-block: 1.2rem;
+  width: 100%;
+}
